@@ -1,7 +1,7 @@
-nomecliente = input("Digite o nome do cliente: ")
-diavencimento = input("Digite o dia de vencimento: ")
-mesvencimento = input("Digite o mês do vencimento: ")
-valorfatura = input("Digite o valor da fatura: ")
+nome_cliente = input("Digite o nome do cliente: ")
+dia_vencimento = input("Digite o dia de vencimento: ")
+mes_vencimento = input("Digite o mês do vencimento: ")
+valor_fatura = input("Digite o valor da fatura: ")
 
-print("Olá, ",nomecliente)
-print("A sua fatura com vencimento em ",diavencimento,"de",mesvencimento,"no valor de R$",valorfatura,"está fechada.")
+print("Olá,",nome_cliente)
+print("A sua fatura com vencimento em", dia_vencimento, "de", mes_vencimento, "no valor de R$", valor_fatura, "está fechada.")

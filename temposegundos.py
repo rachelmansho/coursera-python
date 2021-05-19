@@ -1,10 +1,12 @@
 segundos_str = input("Por favor, entre com o número de segundos que deseja converter: ")
-segundoentrada = int(segundos_str)
+segundo_entrada = int(segundos_str)
 
-horas = segundoentrada // 3600
-segundoresto = segundoentrada % 3600
-minutos = segundoresto // 60
-segundorestofim = segundoresto % 60
+
+horas = segundo_entrada // 3600
+segundo_resto = segundo_entrada % 3600
+minutos = segundo_resto // 60
+segundo_restofim = segundo_resto % 60
 dias = horas // 24
+horas_fim = horas % 24
 
-print(dias,"dias,",horas,"horas,",minutos,"minutos e",segundorestofim,"segundos.")
+print(dias,"dias,",horas_fim,"horas,",minutos,"minutos e",segundo_restofim,"segundos.")

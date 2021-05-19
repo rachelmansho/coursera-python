@@ -5,4 +5,3 @@ perimetro = valorcomprimentoentrada * 4
 area = valorcomprimentoentrada ** 2
 
 print("perímetro:",perimetro,"- área:",area)
-

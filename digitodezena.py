@@ -1,7 +1,7 @@
-numeroentra = input("Digite um número inteiro: ")
-numero = int(numeroentra)
+numero_entrada = input("Digite um número inteiro: ")
+numero = int(numero_entrada)
 
 valor = numero // 10
 resto = valor % 10
 
-print("O digito das dezenas é ",resto)
+print("O dígito das dezenas é", resto)
